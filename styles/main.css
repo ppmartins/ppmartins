@@ -1,43 +1,28 @@
-/* Move down content because we have a fixed navbar that is 50px tall */
-body {
-  padding-top: 10px;
-  padding-bottom: 20px;
-}
-
-.container .navbar-brand {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 2rem;
-  font-weight: 300 lighter;
-  text-transform: capitalize;
-  text-align: left;
-}
-
-.jumbotron h1 {
+.container h1 {
   font-family: 'Open Sans', sans-serif;
   font-size: 3.7rem;
   font-weight: 600, bolder;
   text-align: center;
 }
 
-.jumbotron .lead {
+.container h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.9rem;
   font-weight: 300, bold;
   text-align: center;
 }
 
-.jumbotron h3 {
+.container h4 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.7rem;
   font-weight: 200, lighter;
   background-color: #69D2E7;
-  padding-top: 30px;
-  padding-bottom: 30px;
   text-align: center;
   color: white;
+  font-style: italic;
 }
 
-.jumbotron p {
+.container p {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.5rem;
   font-weight: 300, bolder;
