@@ -1,0 +1,41 @@
+.container {
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+.container h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3.4rem;
+  font-weight: 900;
+  text-align: center;
+  margin: 0px 0px -10px 0px;
+}
+
+.container h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.container h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  background-color: #71B4B5;
+  text-align: center;
+  color: white;
+  font-style: italic;
+  padding: 20px 20px;
+  margin: 80px 0px 0px 0px;
+}
+
+p {
+  font-style: normal;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  margin-bottom: -2px;
+}
