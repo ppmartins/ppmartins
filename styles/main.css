@@ -20,11 +20,15 @@
   text-align: center;
 }
 
-.container h5 {
+.container .wide {
+  width: 100%;
+  background-color: #71B4B5;
+}
+
+  .container .wide h5 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.2rem;
   font-weight: lighter;
-  background-color: #71B4B5;
   text-align: center;
   color: white;
   font-style: italic;
@@ -32,10 +36,15 @@
   margin: 80px 0px 0px 0px;
 }
 
+.container .wide h5 strong {
+  font-size: 1.3rem;
+}
+
 p {
   font-style: normal;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.2rem;
   font-weight: lighter;
   margin-bottom: -2px;
+  text-align: center;
 }
