@@ -1,0 +1,60 @@
+.container {
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+.container h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3.7rem;
+  font-weight: 900;
+  text-align: center;
+  margin: 0px 0px -10px 0px;
+  padding-top: 60px;
+}
+
+.container h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.container .wide {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  background-color: #71B4B5;
+}
+
+.container .wide h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  text-align: center;
+  color: white;
+  font-style: italic;
+  padding: 30px 20px;
+  margin: 0px 0px 0px 0px;
+}
+
+.wide .inside {
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container .wide h5 strong {
+  font-size: 1.3rem;
+}
+
+p {
+  font-style: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  margin-bottom: -2px;
+  text-align: center;
+}
