@@ -1,0 +1,12 @@
+.important {
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+.headline {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3rem;
+}

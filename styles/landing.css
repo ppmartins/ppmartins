@@ -1,11 +1,11 @@
-.container {
+.landing {
   max-width: 980px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 20px;
 }
 
-.container h1 {
+.landing h1 {
   font-family: 'Open Sans', sans-serif;
   font-size: 3.7rem;
   font-weight: 900;
@@ -14,7 +14,7 @@
   padding-top: 60px;
 }
 
-.container h2 {
+.landing h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.4rem;
   font-weight: 300;
@@ -22,14 +22,14 @@
   margin-bottom: 80px;
 }
 
-.container .wide {
+.landing .wide {
   position: absolute;
   width: 100%;
   left: 0;
   background-color: #71B4B5;
 }
 
-.container .wide h5 {
+.landing .wide h5 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.2rem;
   font-weight: lighter;
@@ -46,7 +46,7 @@
   margin-right: auto;
 }
 
-.container .wide h5 strong {
+.landing .wide h5 strong {
   font-size: 1.3rem;
 }
 
@@ -57,4 +57,9 @@ p {
   font-weight: lighter;
   margin-bottom: -2px;
   text-align: center;
+}
+
+.landing .link h4 {
+  color: black;
+  font-size: 3rem;
 }
