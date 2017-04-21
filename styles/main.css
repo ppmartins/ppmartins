@@ -6,6 +6,41 @@
   margin-right: auto;
 }
 
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  html { font-size: 100%; }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  html { font-size: 90%;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  body .container h1 {
+    margin-top: -30px;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  html { font-size: 90%;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  body .container h1 {
+    margin-top: -50px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  html { font-size: 82%;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  body .container h1 {
+    margin-top: -60px;
+  }
+}
+
+
 .navbar .logo {
   display: table;
   position: absolute;
@@ -23,15 +58,14 @@
   text-decoration: none;
   cursor: pointer;
   user-select:none;
-
 }
 
 .navbar .links-container {
   display: table;
   position: absolute;
-  top: 0;
+  top: 25px;
   right: 0;
-  height: 100px;
+  height: 55px;
 }
 
 .links-container .navbar-link {
@@ -82,7 +116,8 @@
 }
 
 .links-container .navbar-button:hover {
-    color: #71B4B5;
+    color: white;
+    background-color: #B57170;
 }
 
 .navbar .logo:active {
@@ -97,70 +132,5 @@
 
 .links-container .navbar-button:active {
     color: #71B4B5;
-    font-size: 1.3rem;
-}
-
-
-.container {
-  max-width: 980px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 20px;
-}
-
-.container h1 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 3.7rem;
-  font-weight: 900;
-  text-align: center;
-  margin: 0px 0px -10px 0px;
-  padding-top: 60px;
-}
-
-.container h2 {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1.4rem;
-  font-weight: 300;
-  text-align: center;
-}
-
-.container .wide {
-  position: absolute;
-  width: 100%;
-  left: 0;
-}
-
-.container .wide h5 {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1.2rem;
-  font-weight: lighter;
-  text-align: center;
-  color: white;
-  font-style: italic;
-  padding: 30px 20px;
-  margin: 80px 0px 0px 0px;
-  background-color: #71B4B5;
-}
-
-/*.wide:before {
-    content:"";
-    background-color:#71B4B5;
-    position: absolute;
-    height: 170px;
-    width: 4000px;
-    left: -2000px;
-    z-index: -1;
-} */
-
-.container .wide h5 strong {
-  font-size: 1.3rem;
-}
-
-p {
-  font-style: normal;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.2rem;
-  font-weight: lighter;
-  margin-bottom: -2px;
-  text-align: center;
+    font-size: 1.2rem;
 }
